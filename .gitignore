@@ -1,0 +1,22 @@
+.DS_Store
+# sys and editor created files
+*~
+*.swp
+Thumbs.db
+\#*#
+.#*
+
+# eclipse files
+.buildpath
+.project
+.settings/
+.classpath
+.pmd
+target/
+protected/config/main.php
+protected/config/console.php
+assets/*
+!assets/.htaccess
+!assets/README
+protected/runtime/*
+!protected/runtime/.htaccess

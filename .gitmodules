@@ -1,0 +1,9 @@
+[submodule "yii"]
+	path = yii
+	url = https://github.com/yiisoft/yii.git
+[submodule "protected/extensions/taggable-behavior"]
+	path = protected/extensions/taggable-behavior
+	url = https://github.com/yiiext/taggable-behavior.git
+[submodule "tools"]
+	path = tools
+	url = https://github.com/neatbasis/yii-tools.git
