@@ -22,6 +22,17 @@ class Controller extends CController
 	public $breadcrumbs=array();
 	
 	/**
+	 * angularJS parameters
+	 * @var string Application name
+	 */
+	public $ngApp = '';
+	/**
+	 * angularJS parameters
+	 * @var string Controller name
+	 */
+	public $ngController = '';
+	
+	/**
 	 * Initializes the controller.
 	 * This method is called by the application before the controller starts to execute.
 	 * You may override this method to perform the needed initialization for the controller.
@@ -39,12 +50,4 @@ class Controller extends CController
 		Yii::app()->setLanguage(Yii::app()->session['lang']);
 
 	}
-
-	public function beforeAction($action){
-		$cs = Yii::app()->clientScript;
-		$cs->registerCoreScript('jquery');
-		//$cs->registerCoreScript('jquery.tinymce.min');
-		return parent::beforeAction($action);
-	}
-
 }

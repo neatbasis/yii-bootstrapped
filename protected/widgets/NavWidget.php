@@ -105,11 +105,11 @@ class NavWidget extends CWidget
 	/**
 	 * @var array HTML attributes for the menu's root container tag
 	 */
-	public $htmlOptions=array();
+	public $htmlOptions=array('class'=>'nav navbar-nav');
 	/**
 	 * @var array HTML attributes for the submenu's container tag.
 	*/
-	public $submenuHtmlOptions=array();
+	public $submenuHtmlOptions=array('class'=>'dropdown-menu');
 	/**
 	 * @var string the HTML element name that will be used to wrap the label of all menu links.
 	 * For example, if this property is set as 'span', a menu item may be rendered as

@@ -7,3 +7,6 @@
 [submodule "tools"]
 	path = tools
 	url = https://github.com/neatbasis/yii-tools.git
+[submodule "protected/extensions/YiiBootstrap"]
+	path = protected/extensions/YiiBootstrap
+	url = https://github.com/VisualAppeal/YiiBootstrap.git
